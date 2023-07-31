@@ -22,4 +22,4 @@ class StockViewSet(ModelViewSet):
 
 @api_view(['GET'])
 def sample_view(request):
-    return Response('Test deploy')
+    return Response('Вроде должно сработать!!!')

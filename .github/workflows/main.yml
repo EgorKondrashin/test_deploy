@@ -66,4 +66,4 @@ jobs:
           host: ${{ secrets.HOST_NAME }}
           username: ${{ secrets.HOST_USER }}
           password: ${{ secrets.HOST_PASSWORD }}
-          script: expect /home/egor/dj_hw_1.1-first-project/3.2-crud/stocks_products/deploy.exp
+          script: expect /home/egor/test_deploy/deploy.exp
